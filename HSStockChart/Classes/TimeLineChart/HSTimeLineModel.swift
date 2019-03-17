@@ -10,13 +10,13 @@ import UIKit
 //import SwiftyJSON
 
 public class HSTimeLineModel: NSObject {
-    public var time: String = ""
-    public var price: CGFloat = 0
-    public var volume: CGFloat = 0
-    public var days: [String] = []
-    public var preClosePx: CGFloat = 0
-    public var avgPirce: CGFloat = 0
-    public var totalVolume: CGFloat = 0
-    public var trade: CGFloat = 0
-    public var rate: CGFloat = 0
+    @objc public var time: String = ""
+    @objc public var price: CGFloat = 0
+    @objc public var volume: CGFloat = 0
+    @objc public var days: [String] = []
+    @objc public var preClosePx: CGFloat = 0
+    @objc public var avgPirce: CGFloat = 0
+    @objc public var totalVolume: CGFloat = 0
+    @objc public var trade: CGFloat = 0
+    @objc public var rate: CGFloat = 0
 }
